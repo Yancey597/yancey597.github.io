@@ -6,7 +6,7 @@
   <link href="http://yancey.vip/atom.xml" rel="self"/>
   
   <link href="http://yancey.vip/"/>
-  <updated>2021-10-05T02:05:54.399Z</updated>
+  <updated>2021-10-05T02:12:36.512Z</updated>
   <id>http://yancey.vip/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>21.10.04 日常</title>
+    <title>日记</title>
     <link href="http://yancey.vip/2021/10/04/20211004/"/>
     <id>http://yancey.vip/2021/10/04/20211004/</id>
     <published>2021-10-04T14:37:54.000Z</published>
-    <updated>2021-10-05T02:05:54.399Z</updated>
+    <updated>2021-10-05T02:12:36.512Z</updated>
     
     
       
@@ -36,6 +36,10 @@
     
     
     
+    <category term="日记" scheme="http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="充实" scheme="http://yancey.vip/tags/%E5%85%85%E5%AE%9E/"/>
     
   </entry>
   
@@ -44,7 +48,7 @@
     <link href="http://yancey.vip/2021/10/03/article-title/"/>
     <id>http://yancey.vip/2021/10/03/article-title/</id>
     <published>2021-10-03T14:04:39.000Z</published>
-    <updated>2021-10-04T16:56:13.302Z</updated>
+    <updated>2021-10-05T02:12:09.191Z</updated>
     
     
       
@@ -59,10 +63,10 @@
     
     
     
-    <category term="日常" scheme="http://yancey.vip/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日记" scheme="http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="日常" scheme="http://yancey.vip/tags/%E6%97%A5%E5%B8%B8/"/>
+    <category term="平淡" scheme="http://yancey.vip/tags/%E5%B9%B3%E6%B7%A1/"/>
     
   </entry>
   
