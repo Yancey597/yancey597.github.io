@@ -104,7 +104,6 @@ $(function () {
             selector: '.img-item',
             // 启用字幕
             subHtmlSelectorRelative: true
-            showThumbByDefault: false   //这句加上
         });
 
         // progress bar init
