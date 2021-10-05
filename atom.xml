@@ -6,7 +6,7 @@
   <link href="http://yancey.vip/atom.xml" rel="self"/>
   
   <link href="http://yancey.vip/"/>
-  <updated>2021-10-05T02:26:59.021Z</updated>
+  <updated>2021-10-05T03:24:17.428Z</updated>
   <id>http://yancey.vip/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>日记</title>
-    <link href="http://yancey.vip/2021/10/04/20211004/"/>
-    <id>http://yancey.vip/2021/10/04/20211004/</id>
+    <title>Diary211004</title>
+    <link href="http://yancey.vip/title.html"/>
+    <id>http://yancey.vip/title.html</id>
     <published>2021-10-04T14:37:54.000Z</published>
-    <updated>2021-10-05T02:26:59.021Z</updated>
+    <updated>2021-10-05T03:24:17.428Z</updated>
     
     
       
@@ -45,8 +45,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yancey.vip/2021/10/03/article-title/"/>
-    <id>http://yancey.vip/2021/10/03/article-title/</id>
+    <link href="http://yancey.vip/title.html"/>
+    <id>http://yancey.vip/title.html</id>
     <published>2021-10-03T14:04:39.000Z</published>
     <updated>2021-10-05T02:27:03.063Z</updated>
     
