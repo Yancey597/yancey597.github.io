@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yancey&#39;s Blog</title>
   
-  <subtitle>Welcome to Yancey&#39;s Blog.</subtitle>
+  <subtitle>Yancey&#39;s Blog.</subtitle>
   <link href="http://yancey.vip/atom.xml" rel="self"/>
   
   <link href="http://yancey.vip/"/>
