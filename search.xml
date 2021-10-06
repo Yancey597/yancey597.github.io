@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Java语言概述</title>
+      <link href="/javayuyangaishu.html"/>
+      <url>/javayuyangaishu.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java语言概述"><a href="#Java语言概述" class="headerlink" title="Java语言概述"></a>Java语言概述</h1><blockquote></blockquote><h2 id="1-基础的DOS命令"><a href="#1-基础的DOS命令" class="headerlink" title="1. 基础的DOS命令"></a>1. 基础的DOS命令</h2><pre class="line-numbers language-none"><code class="language-none">dir:    列出当前目录下的文件及文件夹md:   创建目录 make dictionary **rd:     删除目录**cd:     进入指定目录cd..:   退回到上一级目录cd\:   退回到根目录**del:   删除文件 针对目录的话是删除目录下的所有文件**del *.txt :删除所有类型为txt的文件exit:   退出命令行echo name: Tom,age:12&gt;1.doc 创建1.doc 并把内容放置进去<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="2-1-面向对象"><a href="#2-1-面向对象" class="headerlink" title="2.1 面向对象"></a>2.1 <strong>面向对象</strong></h3><p><strong>两个概念：</strong> 类、对象</p><p><strong>三大特征：</strong> 封装、继承、多态</p><h3 id="2-2-健壮性"><a href="#2-2-健壮性" class="headerlink" title="2.2 健壮性"></a>2.2 <strong>健壮性</strong></h3><p>去掉指针等、提供了<strong>相对安全的内存管理访问机制</strong></p><h3 id="2-3-跨平台性"><a href="#2-3-跨平台性" class="headerlink" title="2.3 跨平台性"></a>2.3 <strong>跨平台性</strong></h3><p>因为**JVM(Java虚拟机)**的存在，所以在不同的系统平台都可以运行。<br><img src="https://yancey597.github.io/Javayuyangaishu/suijiao.jpg#pic_center" width="150"></p><p><strong>Write once ,Run Anywhere.</strong> </p><h3 id="2-4-核心机制"><a href="#2-4-核心机制" class="headerlink" title="2.4 核心机制"></a><strong>2.4 核心机制</strong></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>国庆假后第一天</title>
       <link href="/guoqingjiahoudiyitian.html"/>
       <url>/guoqingjiahoudiyitian.html</url>
