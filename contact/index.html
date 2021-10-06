@@ -31,9 +31,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Yancey's Blog" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Yancey's Blog" type="application/atom+xml">
 </head>
 
 
@@ -338,10 +338,10 @@
                             <div class="col-md-5">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        姓名：<input class="form-control" name="username" type="text" placeholder="hello, world"/>
+                                        姓名：<input class="form-control" name="username" type="text" placeholder="请输入你的昵称"/>
                                     </div>
                                     <div class="form-group">
-                                        文字：<input class="form-control" name="info" type="text" placeholder="hello, world"/>
+                                        留言：<input class="form-control" name="info" type="text" placeholder="请输入你的留言内容"/>
                                     </div>
                                     <!-- <div class="form-group">
                                         链接：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
@@ -405,7 +405,7 @@
                         let href = $('input[name=href]').val();
                         (href === '' ) ?  href='https://github.com/blinkfox/hexo-theme-matery' : href=href;
                         **/
-                        let speed = 10;//parseInt($('input[name=speed]').val());
+                        let speed = 5;//parseInt($('input[name=speed]').val());
                         /**
                         if(speed > 20 || speed < 5)
                             speed = Math.floor(Math.random() * 10) + 5;
