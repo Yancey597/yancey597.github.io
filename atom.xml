@@ -3,11 +3,11 @@
   <title>Yancey&#39;s Blog</title>
   
   <subtitle>Yancey&#39;s Blog.</subtitle>
-  <link href="http://yancey.vip/atom.xml" rel="self"/>
+  <link href="https://yancey.vip/atom.xml" rel="self"/>
   
-  <link href="http://yancey.vip/"/>
+  <link href="https://yancey.vip/"/>
   <updated>2021-10-06T12:35:23.088Z</updated>
-  <id>http://yancey.vip/</id>
+  <id>https://yancey.vip/</id>
   
   <author>
     <name>Yancey</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java语言概述</title>
-    <link href="http://yancey.vip/javayuyangaishu.html"/>
-    <id>http://yancey.vip/javayuyangaishu.html</id>
+    <link href="https://yancey.vip/javayuyangaishu.html"/>
+    <id>https://yancey.vip/javayuyangaishu.html</id>
     <published>2021-10-06T04:59:23.000Z</published>
     <updated>2021-10-06T12:35:23.088Z</updated>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="编程" scheme="http://yancey.vip/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://yancey.vip/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="Java" scheme="http://yancey.vip/tags/Java/"/>
+    <category term="Java" scheme="https://yancey.vip/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>国庆假后第一天</title>
-    <link href="http://yancey.vip/guoqingjiahoudiyitian.html"/>
-    <id>http://yancey.vip/guoqingjiahoudiyitian.html</id>
+    <link href="https://yancey.vip/guoqingjiahoudiyitian.html"/>
+    <id>https://yancey.vip/guoqingjiahoudiyitian.html</id>
     <published>2021-10-04T14:37:54.000Z</published>
     <updated>2021-10-06T12:34:23.275Z</updated>
     
@@ -60,17 +60,17 @@
     
     
     
-    <category term="日记" scheme="http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="日记" scheme="http://yancey.vip/tags/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://yancey.vip/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yancey.vip/helloworld.html"/>
-    <id>http://yancey.vip/helloworld.html</id>
+    <link href="https://yancey.vip/helloworld.html"/>
+    <id>https://yancey.vip/helloworld.html</id>
     <published>2021-10-03T14:04:39.000Z</published>
     <updated>2021-10-06T05:52:01.388Z</updated>
     
@@ -85,10 +85,10 @@
     
     
     
-    <category term="日记" scheme="http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://yancey.vip/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="日记" scheme="http://yancey.vip/tags/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://yancey.vip/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
