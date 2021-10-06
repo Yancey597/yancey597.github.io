@@ -81,14 +81,14 @@
 
   
   <url>
-    <loc>http://yancey.vip/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>http://yancey.vip/tags/Java/</loc>
     <lastmod>2021-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yancey.vip/tags/Java/</loc>
+    <loc>http://yancey.vip/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2021-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -97,14 +97,14 @@
 
   
   <url>
-    <loc>http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>http://yancey.vip/categories/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2021-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yancey.vip/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>http://yancey.vip/categories/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2021-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
