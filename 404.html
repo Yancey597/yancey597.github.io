@@ -1498,18 +1498,26 @@ $(function () {
     
 
     
-
+    <script type="text/javascript">
+        var OriginTitile = document.title,
+            st;
+        document.addEventListener("visibilitychange", function () {
+            document.hidden ? (document.title = "永远相信美好的事情即将发生", clearTimeout(st)) : (document.title =
+                "Yancey's Blog", st = setTimeout(function () {
+                    document.title = OriginTitile
+                }, 3e3))
+        })
+    </script>
+    
     
 
     <!--腾讯兔小巢-->
     
     
-    <!--
-    <script type="text/javascript" color="0,0,255"
+    <script type="text/javascript" color="0,0,0"
         pointColor="0,0,255" opacity='0.7'
-        zIndex="-1" count="99"
+        zIndex="-1" count="120"
         src="/libs/background/canvas-nest.js"></script>
-        -->
     
 
     

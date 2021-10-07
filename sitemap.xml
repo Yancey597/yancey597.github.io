@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yancey.vip/galleries/index.html</loc>
+    
+    <lastmod>2021-10-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yancey.vip/javayuyangaishu.html</loc>
     
     <lastmod>2021-10-07</lastmod>
@@ -95,14 +102,14 @@
   </url>
   
   <url>
-    <loc>https://yancey.vip/tags/Java/</loc>
+    <loc>https://yancey.vip/tags/Windows/</loc>
     <lastmod>2021-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yancey.vip/tags/Windows/</loc>
+    <loc>https://yancey.vip/tags/Java/</loc>
     <lastmod>2021-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -118,14 +125,14 @@
   </url>
   
   <url>
-    <loc>https://yancey.vip/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://yancey.vip/categories/%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2021-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yancey.vip/categories/%E8%B5%84%E8%AE%AF/</loc>
+    <loc>https://yancey.vip/categories/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2021-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
