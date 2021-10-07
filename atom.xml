@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2021-10-06T12:35:23.088Z</updated>
+  <updated>2021-10-07T16:54:02.121Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Windows11</title>
+    <link href="https://yancey.vip/windows11.html"/>
+    <id>https://yancey.vip/windows11.html</id>
+    <published>2021-10-07T15:34:45.000Z</published>
+    <updated>2021-10-07T16:54:02.121Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Windows11-体验分享及升级教程&quot;&gt;&lt;a href=&quot;#Windows11-体验分享及升级教程&quot; class=&quot;headerlink&quot; title=&quot;Windows11 体验分享及升级教程&quot;&gt;&lt;/a&gt;Windows11</summary>
+        
+      
+    
+    
+    
+    <category term="资讯" scheme="https://yancey.vip/categories/%E8%B5%84%E8%AE%AF/"/>
+    
+    
+    <category term="Windows" scheme="https://yancey.vip/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java语言概述</title>
     <link href="https://yancey.vip/javayuyangaishu.html"/>
     <id>https://yancey.vip/javayuyangaishu.html</id>
     <published>2021-10-06T04:59:23.000Z</published>
-    <updated>2021-10-06T12:35:23.088Z</updated>
+    <updated>2021-10-06T15:55:41.867Z</updated>
     
     
       
