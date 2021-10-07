@@ -436,30 +436,30 @@ exit:   退出命令行
 echo name: Tom,age:12&gt;1.doc 创建1.doc 并把内容放置进去
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="2-Java特性"><a href="#2-Java特性" class="headerlink" title="2. Java特性"></a>2. Java特性</h3><h3 id="2-1-面向对象"><a href="#2-1-面向对象" class="headerlink" title="2.1 面向对象"></a>2.1 面向对象</h3><p><strong>两个概念：</strong> <font color="red">类、对象</font></p>
+<h3 id="2-Java特性"><a href="#2-Java特性" class="headerlink" title="2. Java特性"></a>2. Java特性</h3><h4 id="2-1-面向对象"><a href="#2-1-面向对象" class="headerlink" title="2.1 面向对象"></a>2.1 面向对象</h4><p><strong>两个概念：</strong> <font color="red">类、对象</font></p>
 <p><strong>三大特征：</strong> <font color="red">封装、继承、多态</font></p>
-<h3 id="2-2-健壮性"><a href="#2-2-健壮性" class="headerlink" title="2.2 健壮性"></a>2.2 健壮性</h3><p>去掉指针等、提供了<font color="red"><strong>相对安全的内存管理访问机制</strong></font></p>
-<h3 id="2-3-跨平台性"><a href="#2-3-跨平台性" class="headerlink" title="2.3 跨平台性"></a>2.3 跨平台性</h3><p>因为**JVM(Java虚拟机)**的存在，所以在不同的系统平台都可以运行。</p>
+<h4 id="2-2-健壮性"><a href="#2-2-健壮性" class="headerlink" title="2.2 健壮性"></a>2.2 健壮性</h4><p>去掉指针等、提供了<font color="red"><strong>相对安全的内存管理访问机制</strong></font></p>
+<h4 id="2-3-跨平台性"><a href="#2-3-跨平台性" class="headerlink" title="2.3 跨平台性"></a>2.3 跨平台性</h4><p>因为**JVM(Java虚拟机)**的存在，所以在不同的系统平台都可以运行。</p>
 <p><font color="red"><strong>Write once ,Run Anywhere.</strong> </font></p>
-<h3 id="2-4-核心机制"><a href="#2-4-核心机制" class="headerlink" title="2.4 核心机制"></a><strong>2.4 核心机制</strong></h3><p><strong>JVM：</strong><br><strong>一个虚拟的计算机</strong>，拥有指令集并使用不同的存储区域，负责执行指令，管理数据、内存、寄存器。<br><img src="https://yancey597.github.io/javayuyangaishu/JVM.jpg#pic_center"></p>
+<h4 id="2-4-核心机制"><a href="#2-4-核心机制" class="headerlink" title="2.4 核心机制"></a><strong>2.4 核心机制</strong></h4><p><strong>JVM：</strong><br><strong>一个虚拟的计算机</strong>，拥有指令集并使用不同的存储区域，负责执行指令，管理数据、内存、寄存器。<br><img src="https://yancey597.github.io/javayuyangaishu/JVM.jpg#pic_center"></p>
 <p><strong>垃圾回收机制：</strong><br>在C/C++等语言，由程序员回收内存。<br>在Java中由程序自行控制，**<font color="red">但还是会有内存泄露、溢出。</font>**</p>
-<h2 id="3-Java环境搭建"><a href="#3-Java环境搭建" class="headerlink" title="3. Java环境搭建"></a>3. Java环境搭建</h2><h3 id="3-1-Java环境有哪些"><a href="#3-1-Java环境有哪些" class="headerlink" title="3.1 Java环境有哪些"></a>3.1 Java环境有哪些</h3><p><strong>JDK：</strong>Java开发工具包<br>包括JRE、开发工具集（编译Javac.exe，打包jar.exe）。</p>
+<h3 id="3-Java环境搭建"><a href="#3-Java环境搭建" class="headerlink" title="3. Java环境搭建"></a>3. Java环境搭建</h3><h4 id="3-1-Java环境有哪些"><a href="#3-1-Java环境有哪些" class="headerlink" title="3.1 Java环境有哪些"></a>3.1 Java环境有哪些</h4><p><strong>JDK：</strong>Java开发工具包<br>包括JRE、开发工具集（编译Javac.exe，打包jar.exe）。</p>
 <p><strong>JRE：</strong>Java运行环境<br>包括JVM和Java需要的核心类库。<br><img src="https://yancey597.github.io/javayuyangaishu/JDK.jpg#pic_center"></p>
-<h3 id="3-2-配置环境变量"><a href="#3-2-配置环境变量" class="headerlink" title="3.2 配置环境变量"></a>3.2 配置环境变量</h3><blockquote>
+<h4 id="3-2-配置环境变量"><a href="#3-2-配置环境变量" class="headerlink" title="3.2 配置环境变量"></a>3.2 配置环境变量</h4><blockquote>
 <p><strong>为什么要配置环境变量？</strong></p>
 </blockquote>
 <p>**PATH 环境变量:**是Windows系统执行命令时的搜索路径。<br><strong>配置的原因：</strong> 希望Java开发指令在任何的文件路径下都可以执行。</p>
-<h3 id="3-3-配置方法"><a href="#3-3-配置方法" class="headerlink" title="3.3 配置方法"></a>3.3 <strong>配置方法</strong></h3><p><strong>计算机属性 —&gt; 高级设置 —&gt;环境变量</strong></p>
+<h4 id="3-3-配置方法"><a href="#3-3-配置方法" class="headerlink" title="3.3 配置方法"></a>3.3 <strong>配置方法</strong></h4><p><strong>计算机属性 —&gt; 高级设置 —&gt;环境变量</strong></p>
 <pre class="line-numbers language-none"><code class="language-none">JAVA_HOME = JDK\bin的上一层目录   （添加为系统变量）
 PATH = %JAVA_HOME%\bin        （添加为用户变量）
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h2 id="4-开发体验-HelloWorld"><a href="#4-开发体验-HelloWorld" class="headerlink" title="4. 开发体验 HelloWorld"></a>4. 开发体验 HelloWorld</h2><h3 id="4-1-步骤"><a href="#4-1-步骤" class="headerlink" title="4.1 步骤"></a>4.1 步骤</h3><ol>
+<h3 id="4-开发体验-HelloWorld"><a href="#4-开发体验-HelloWorld" class="headerlink" title="4. 开发体验 HelloWorld"></a>4. 开发体验 HelloWorld</h3><h4 id="4-1-步骤"><a href="#4-1-步骤" class="headerlink" title="4.1 步骤"></a>4.1 步骤</h4><ol>
 <li>将Java代码<strong>编写</strong>到扩展名为.java的文件中。<font color="red">（源文件）</font></li>
 <li>通过javac.exe对源文件进行<strong>编译</strong>生成class文件。<font color="red">（字节码文件）</font></li>
 <li>通过java.exe对class文件进行<strong>运行</strong>。<br><img src="https://yancey597.github.io/javayuyangaishu/bianyi.jpg#pic_center"></li>
 </ol>
-<h2 id="5-注释"><a href="#5-注释" class="headerlink" title="5. 注释"></a>5. 注释</h2><p><strong>单行注释、多行注释、文档注释</strong></p>
+<h3 id="5-注释"><a href="#5-注释" class="headerlink" title="5. 注释"></a>5. 注释</h3><p><strong>单行注释、多行注释、文档注释</strong></p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 文档注释
 @author yancey
@@ -468,9 +468,9 @@ PATH = %JAVA_HOME%\bin        （添加为用户变量）
 
 */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="5-Java-API"><a href="#5-Java-API" class="headerlink" title="5 Java API"></a>5 Java API</h2><p><strong>API：</strong>应用程序编程接口</p>
+<h3 id="6-Java-API"><a href="#6-Java-API" class="headerlink" title="6 Java API"></a>6 Java API</h3><p><strong>API：</strong>应用程序编程接口</p>
 <p>JavaAPI文档：告诉开发者如何使用这些类，以及这些类里包含的方法。</p>
-<h2 id="6-HelloWorld的总结"><a href="#6-HelloWorld的总结" class="headerlink" title="6. HelloWorld的总结"></a>6. HelloWorld的总结</h2><h3 id="6-1-public类必须和文件名相同"><a href="#6-1-public类必须和文件名相同" class="headerlink" title="6.1 public类必须和文件名相同"></a>6.1 public类必须和文件名相同</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//Hello.java</span>
+<h3 id="7-HelloWorld的总结"><a href="#7-HelloWorld的总结" class="headerlink" title="7. HelloWorld的总结"></a>7. HelloWorld的总结</h3><h4 id="6-1-public类必须和文件名相同"><a href="#6-1-public类必须和文件名相同" class="headerlink" title="6.1 public类必须和文件名相同"></a>6.1 public类必须和文件名相同</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//Hello.java</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Hello</span><span class="token punctuation">{</span>
 	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
 		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -479,7 +479,7 @@ PATH = %JAVA_HOME%\bin        （添加为用户变量）
 <span class="token comment">//java里面可以有多个类，但只能有一个声明为public</span>
 <span class="token comment">//public只能加到和文件名相同的类中</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="6-2-对输出语句的理解"><a href="#6-2-对输出语句的理解" class="headerlink" title="6.2 对输出语句的理解"></a>6.2 对输出语句的理解</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//</span>
+<h4 id="6-2-对输出语句的理解"><a href="#6-2-对输出语句的理解" class="headerlink" title="6.2 对输出语句的理解"></a>6.2 对输出语句的理解</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Hello</span><span class="token punctuation">{</span>
 	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
 		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//ln输出默认带换行符</span>
@@ -566,7 +566,7 @@ PATH = %JAVA_HOME%\bin        （添加为用户变量）
 <div id="article-share">
 
     
-    <div class="social-share" data-sites="google,qq,qzone,wechat,weibo,douban" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <div class="social-share" data-sites="qq,qzone,wechat,weibo" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
     <script src="/libs/share/js/social-share.min.js"></script>
     
 
@@ -1174,7 +1174,7 @@ PATH = %JAVA_HOME%\bin        （添加为用户变量）
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('4'),
+            collapseDepth: Number('3'),
             headingSelector: 'h1, h2, h3, h4'
         });
 
@@ -1608,6 +1608,13 @@ $(function () {
 
     <!--腾讯兔小巢-->
     
+    
+    <!--
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+        -->
     
 
     
