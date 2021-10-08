@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2021-10-08T10:22:40.250Z</updated>
+  <updated>2021-10-08T16:06:55.940Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基本语法</title>
+    <link href="https://yancey.vip/javajibenyufa.html"/>
+    <id>https://yancey.vip/javajibenyufa.html</id>
+    <published>2021-10-08T15:55:26.000Z</published>
+    <updated>2021-10-08T16:06:55.940Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;二、Java基础语法&quot;&gt;&lt;a href=&quot;#二、Java基础语法&quot; class=&quot;headerlink&quot; title=&quot;二、Java基础语法&quot;&gt;&lt;/a&gt;二、Java基础语法&lt;/h1&gt;&lt;h2 id=&quot;1-关键字保留字&quot;&gt;&lt;a href=&quot;#1-关键字保留字&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://yancey.vip/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Java" scheme="https://yancey.vip/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows11</title>
@@ -46,7 +71,7 @@
     <link href="https://yancey.vip/javayuyangaishu.html"/>
     <id>https://yancey.vip/javayuyangaishu.html</id>
     <published>2021-10-06T04:59:23.000Z</published>
-    <updated>2021-10-07T18:05:19.543Z</updated>
+    <updated>2021-10-08T16:06:53.438Z</updated>
     
     
       
