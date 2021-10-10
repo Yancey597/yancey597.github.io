@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2021-10-08T16:11:50.900Z</updated>
+  <updated>2021-10-10T09:11:56.931Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>思考与勇气</title>
+    <link href="https://yancey.vip/sikaoyuyongqi.html"/>
+    <id>https://yancey.vip/sikaoyuyongqi.html</id>
+    <published>2021-10-10T07:19:20.000Z</published>
+    <updated>2021-10-10T09:11:56.931Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;思考与勇气&quot;&gt;&lt;a href=&quot;#思考与勇气&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录#" scheme="https://yancey.vip/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="周记" scheme="https://yancey.vip/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java基本语法</title>
     <link href="https://yancey.vip/javajibenyufa.html"/>
     <id>https://yancey.vip/javajibenyufa.html</id>
     <published>2021-10-08T15:55:26.000Z</published>
-    <updated>2021-10-08T16:11:50.900Z</updated>
+    <updated>2021-10-08T16:13:28.476Z</updated>
     
     
       
