@@ -285,13 +285,13 @@
 <style>
     #send{
         margin-bottom: 10px;
-        width: 49%;
-        background-color: #0ba360;
+        width: 25%;
+        background-color: #000;
     }
     #clear{
         margin-bottom: 10px;
-        width: 49%;
-        background-color: #e7c65c;
+        width: 15%;
+        background-color: #000;
     }
     p{
         text-align: center;
@@ -309,8 +309,8 @@
             <!--valine评论弹幕-->
             
                 <p>
-                    <b>畅所欲言</b><br>
-                    <b>您的留言将以弹幕的形式留在这里</b>
+        
+                    <b>您的留言将以弹幕的形式留在这里</b><br><br><br><br><br>
                 </p>
                 <div class="container">
                     <section id="custom" class="bb-section">
@@ -318,10 +318,10 @@
                             <div class="col-md-5">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        姓名：<input class="form-control" name="username" type="text" placeholder="请输入你的昵称"/>
+                                        <font size ="5"><b>姓名</b>：</font><input class="form-control" name="username" type="text" placeholder="请输入你的昵称"/><br><br><br>
                                     </div>
                                     <div class="form-group">
-                                        留言：<input class="form-control" name="info" type="text" placeholder="请输入你的留言内容"/>
+                                        <font size ="5"><b>留言：</font></b><input class="form-control" name="info" type="text" placeholder="请输入你的留言内容"/><br><br><br>
                                     </div>
                                     <!-- <div class="form-group">
                                         链接：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
@@ -333,7 +333,7 @@
                                 </form>
                                 <div class="form-group">
                                     <button id="send"  class="btn" onclick="run()">留言</button>
-                                    <button id="clear" class="btn " onclick="clear_barrage()"> 清除</button>
+                                    <!-- <button id="clear" class="btn " onclick="clear_barrage()"> 重新输入</button>></!-->
                                 </div>
                             </div>
                         </div>

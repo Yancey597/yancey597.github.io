@@ -108,7 +108,7 @@ div.timenode:hover .meta:before {
 }
 
 div.timenode:hover .meta:after {
-    background: #ff5722;
+    background: #000;
     transform: scale(1);
 }
 
