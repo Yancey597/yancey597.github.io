@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2021-10-16T15:33:46.843Z</updated>
+  <updated>2021-10-17T02:19:45.490Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java流程控制和数组</title>
+    <link href="https://yancey.vip/javaliuchengkongzhiheshuzu.html"/>
+    <id>https://yancey.vip/javaliuchengkongzhiheshuzu.html</id>
+    <published>2021-10-17T02:13:27.000Z</published>
+    <updated>2021-10-17T02:19:45.490Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;三-流程控制&quot;&gt;&lt;a href=&quot;#三-流程控制&quot; class=&quot;headerlink&quot; title=&quot;三. 流程控制&quot;&gt;&lt;/a&gt;三.</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://yancey.vip/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Java" scheme="https://yancey.vip/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>呼兰</title>
@@ -46,7 +71,7 @@
     <link href="https://yancey.vip/sikaoyuyongqi.html"/>
     <id>https://yancey.vip/sikaoyuyongqi.html</id>
     <published>2021-10-10T07:19:20.000Z</published>
-    <updated>2021-10-16T15:31:45.486Z</updated>
+    <updated>2021-10-17T02:19:27.966Z</updated>
     
     
       
@@ -71,7 +96,7 @@
     <link href="https://yancey.vip/javajibenyufa.html"/>
     <id>https://yancey.vip/javajibenyufa.html</id>
     <published>2021-10-08T15:55:26.000Z</published>
-    <updated>2021-10-08T16:13:28.476Z</updated>
+    <updated>2021-10-17T02:16:11.032Z</updated>
     
     
       
