@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2021-10-17T02:22:22.454Z</updated>
+  <updated>2021-10-19T01:44:57.779Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>久违的快乐</title>
+    <link href="https://yancey.vip/jiuweidekuaile.html"/>
+    <id>https://yancey.vip/jiuweidekuaile.html</id>
+    <published>2021-10-18T23:24:41.000Z</published>
+    <updated>2021-10-19T01:44:57.779Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;久违的快乐&quot;&gt;&lt;a href=&quot;#久违的快乐&quot; class=&quot;headerlink&quot; title=&quot;久违的快乐&quot;&gt;&lt;/a&gt;久违的快乐&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;嗯，是时候该停下来了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://yancey.vip/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="周记" scheme="https://yancey.vip/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java流程控制和数组</title>
     <link href="https://yancey.vip/javaliuchengkongzhiheshuzu.html"/>
     <id>https://yancey.vip/javaliuchengkongzhiheshuzu.html</id>
     <published>2021-10-17T02:13:27.000Z</published>
-    <updated>2021-10-17T02:22:22.454Z</updated>
+    <updated>2021-10-17T02:23:41.145Z</updated>
     
     
       
