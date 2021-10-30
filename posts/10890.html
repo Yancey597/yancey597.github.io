@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="抽象数据类型, Yancey&#39;s Blog">
+    <meta name="keywords" content="计算机网络概述, Yancey&#39;s Blog">
     <meta name="description" content="永远相信美好的事情即将发生">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>抽象数据类型 | Yancey&#39;s Blog</title>
+    <title>计算机网络概述 | Yancey&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -230,12 +230,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://yancey597.github.io/chouxiangshujuleixing/sjjg.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://yancey597.github.io/jisuanjiwangluogaishu/network.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">抽象数据类型</h1>
+                    <h1 class="description center-align post-title">计算机网络概述</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +351,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                                <span class="chip bg-color">数据结构</span>
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                <span class="chip bg-color">计算机网络</span>
                             </a>
                         
                     </div>
@@ -363,8 +363,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="post-category">
-                                技术分享
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                笔记
                             </a>
                         
                     </div>
@@ -376,7 +376,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-29
+                    2021-10-21
                 </div>
                 
 
@@ -385,14 +385,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    902
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    5 分
                 </div>
                 
 
@@ -420,42 +420,127 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>   今天学习到408数据结构时遇到一个奇奇怪怪的东西：抽象数据类型，这个概念的定义如此之长，也不是特别容易理解。然后我去Google查阅了大量资料后算是把这个概念弄清楚了。接下来简单谈下我的对抽象数据类型的理解。</p>
-<blockquote>
-<p>抽象数据类型(Abstract Data Type 简称ADT)是指一个数学模型以及定义在此数学模型上的一组操作。抽象数据类型需要通过固有数据类型（高级编程语言中已实现的数据类型）来实现。抽象数据类型是与表示无关的数据类型，是一个数据模型及定义在该模型上的一组运算。</p>
+                <blockquote>
+<p>希望我们彼此在看不到的地方过的熠熠生辉。</p>
 </blockquote>
-<p><strong>太抽象以至于不太好理解，其实可以用一个等式来描述抽象数据类型。</strong></p>
-<p><strong>抽象数据类型 = 逻辑结构 + 数据运算</strong></p>
-<h3 id="1-逻辑结构"><a href="#1-逻辑结构" class="headerlink" title="1. 逻辑结构"></a>1. 逻辑结构</h3><p>说到<strong>逻辑结构</strong>不得不从头讲起：</p>
-<p>我们生活在现实世界中，如何描述这世界万物呢？画家可以用手中的画笔，而我们如何来描述这个世界呢？我们可以用<strong>数据</strong>来描述这个世界。</p>
-<p><img src="https://yancey597.github.io/chouxiangshujuleixing/sjysj.jpg"></p>
-<p>接下来是层层递进的概念：</p>
-<p>数据是信息的<strong>载体</strong>，用来描述客观事物属性的数、字符及所有能被<strong>计算机读取</strong>(二进制0、1)识别的符号的集合。</p>
-<p><strong>数据元素</strong>是数据的基本单位，一个数据元素可以包括多个<strong>数据项</strong>，数据项是数据元素的最小构成单位。</p>
-<p>具有相同性质的数据元素称为<strong>数据对象</strong>。</p>
-<p>而<strong>数据元素</strong>间存在一种或多种关系的则可以称之为<strong>数据结构</strong>。</p>
-<p>而数据的<strong>逻辑结构</strong>是数据结构的三要素之一。</p>
-<p>常见的逻辑结构分为线性和非线性，这里就不一一展开了。</p>
-<h3 id="2-数据运算"><a href="#2-数据运算" class="headerlink" title="2. 数据运算"></a>2. 数据运算</h3><p>施加在数据上的运算包括运算的定义和实现。运算的定义是针对逻辑结构的，指出运算的功能；运算的实现是针对存储结构的，指出运算的具体操作步骤。</p>
-<p>比如对数据的<strong>增删改查</strong>。</p>
-<h3 id="3-抽象数据类型"><a href="#3-抽象数据类型" class="headerlink" title="3.抽象数据类型"></a>3.抽象数据类型</h3><p>逻辑结构不涉及数据在计算机中<strong>具体的实现和存储</strong>，这些操作是由存储结构决定的，这就是说，抽象数据类型只需考虑问题本身即可。</p>
-<p>抽象数据类型是在不涉及具体的，和计算机系统相关的细节情况下，优先理解问题本身，在此基础上，实现用计算机求解问题的过程。这就是使用抽象数据类型的目的。</p>
-<p>抽象数据类型就是在这种形式化的描述下把数据的组成和如何操作的问题描述清楚，且<strong>没有涉及到具体的计算机具体实现的一些问题</strong>。从数据对象中看出，<strong>抽象数据类型是由基本数据类型组成</strong>。</p>
-<p>就是告诉你这个东西是什么，有什么特征，但不关心具体是如何实现这个东西的。</p>
-<h3 id="4-抽象数据类型和数据结构的区别"><a href="#4-抽象数据类型和数据结构的区别" class="headerlink" title="4.抽象数据类型和数据结构的区别"></a>4.抽象数据类型和数据结构的区别</h3><p>ADT is to a Data Structure, what an Interface (what it does) is to a Class (how it does it)</p>
-<p>ADT 之于数据结构，接口（它做什么）之于类（它如何做）</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">ADT<span class="token operator">:</span> <span class="token class-name">List</span>
-DS<span class="token operator">:</span>  <span class="token class-name">ArrayList</span><span class="token punctuation">,</span> <span class="token class-name">LinkedList</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-
-ADT<span class="token operator">:</span> <span class="token class-name">Map</span>
-DS<span class="token operator">:</span>  <span class="token class-name">HashMap</span><span class="token punctuation">,</span> <span class="token class-name">TreeMap</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
+<h1 id="一-、计算机网络概述"><a href="#一-、计算机网络概述" class="headerlink" title="一 、计算机网络概述"></a>一 、计算机网络概述</h1><blockquote>
+<p><strong>思维导图</strong></p>
+</blockquote>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/1.jpg#pic_center"></p>
+<blockquote>
+<p><strong>计算机网络大纲</strong></p>
+</blockquote>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/2.jpg#pic_center"></p>
+<h2 id="1-计算机网络的概念"><a href="#1-计算机网络的概念" class="headerlink" title="1. 计算机网络的概念"></a>1. 计算机网络的概念</h2><ul>
+<li><strong>计算机网络：是一个将<font color="red">分散的</font>、具有<font color="red">独立功能</font>的<font color="red">计算机系统</font>，通过<font color="red">通信设备</font>(路由器等)与线路(光纤等)连接起来，由功能完善的<font color="red">软件</font>实现<font color="red">资源共享和信息传递</font>的系统。</strong></li>
+<li><strong>计算机网络是一些互联的、自治的计算机系统的集合。</strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/3.jpg#pic_center"></p>
+<p>网络无处不在。</p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/4.jpg#pic_center"></p>
+<p><strong>分散的、独立的计算机系统  - - -<font color="red">通信设备、线路</font>（连接） - - - 完善的<font color="red">软件</font>- - - &gt;  资源共享、信息传递。</strong></p>
+<h2 id="2-计算机网络的功能"><a href="#2-计算机网络的功能" class="headerlink" title="2. 计算机网络的功能"></a>2. 计算机网络的功能</h2><h3 id="2-1-数据通信"><a href="#2-1-数据通信" class="headerlink" title="2.1 数据通信"></a>2.1 数据通信</h3><ul>
+<li><strong><font color="red">数据通信</font>是计算机网络<font color="red">最基本和最重要</font>的功能，实现联网计算机之间的各种<font color="red">信息传输</font>，并将分散在不同地理位置的计算机联系起来，进行<font color="red">统一的调配、控制和管理。</font></strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/5.jpg#pic_center"></p>
+<h3 id="2-2-资源共享"><a href="#2-2-资源共享" class="headerlink" title="2.2 资源共享"></a>2.2 资源共享</h3><ul>
+<li><p><strong>资源共享可以是：</strong></p>
+<p><strong><font color="red">软件共享：</font>(利用远程软件访问其他设备的软件)</strong></p>
+<p><strong><font color="red">数据共享：</font>(百度文库、FTP等)</strong></p>
+<p><strong><font color="red">硬件共享：</font>(网络打印机等)</strong></p>
+</li>
+<li><p><strong>计算机网络中的资源互通有无，分工协作，从而极大地<font color="red">提高</font>硬件资源、软件资源和数据资源的<font color="red">利用率</font>。</strong></p>
+</li>
+</ul>
+<h3 id="2-3-分布式处理"><a href="#2-3-分布式处理" class="headerlink" title="2.3 分布式处理"></a>2.3 分布式处理</h3><ul>
+<li><strong>当计算机网络中的某个计算机系统<font color="red">负荷过重</font>时，可以将其处理的某个<font color="red">复杂任务</font>分配给网络中的其它计算机系统，让它帮你处理，从而利用空闲计算机资源以<font color="red">提高</font>整个系统的<font color="red">利用率。</font></strong></li>
+</ul>
+<h3 id="2-4-提高了可靠性"><a href="#2-4-提高了可靠性" class="headerlink" title="2.4 *提高了可靠性"></a>2.4 *提高了可靠性</h3><ul>
+<li><strong>因为<font color="red">分布式处理</font>的原因，计算机网络中的各台计算机可以通过网络互为替代机，当一台计算机崩了，可以让另一台计算机来完成它的工作，从而提高了<font color="red">可靠性</font>。</strong></li>
+</ul>
+<h3 id="2-5-负载均衡"><a href="#2-5-负载均衡" class="headerlink" title="2.5 *负载均衡"></a>2.5 *负载均衡</h3><ul>
+<li><strong>将工作任务<font color="red">均衡</font>的分配给计算机网络中的各台计算机。</strong></li>
+</ul>
+<h3 id="2-6-其它应用"><a href="#2-6-其它应用" class="headerlink" title="2.6 其它应用"></a>2.6 <strong>其它应用</strong></h3><ul>
+<li><strong>计算机网络还可以实现<font color="red">电子化</font>办公与服务、远程教育、娱乐等功能。</strong></li>
+</ul>
+<h2 id="3-计算机网络的组成"><a href="#3-计算机网络的组成" class="headerlink" title="3. 计算机网络的组成"></a>3. 计算机网络的组成</h2><h3 id="3-1-从组成部分来看"><a href="#3-1-从组成部分来看" class="headerlink" title="3.1 从组成部分来看"></a>3.1 从组成部分来看</h3><ul>
+<li><strong>一个完整的计算机网络主要由<font color="red">硬件、软件和协议</font>三大部分组成，缺一不可。</strong></li>
+<li><strong><font color="red">硬件</font>主要由<font color="red">主机</font>(也称端系统)，<font color="red">通信链路</font>(如双绞线、光纤)、<font color="red">交换设备</font>(如路由、交换机等)和<font color="red">通信处理机</font>(如网卡)等组成</strong></li>
+<li><strong><font color="red">软件</font>主要包括各种实现<font color="red">资源共享</font>的软件和方便用户使用的各种<font color="red">工具软件</font>(如网络操作系统、邮件收发程序、FTP程序、聊天程序等)。</strong></li>
+<li><strong><font color="red">协议</font>是计算机网络的核心，协议规定了网络传输数据时所<font color="red">遵循的规范</font>。就如同我们现实生活中的法律一样，网络世界也必须遵循一定的规则。</strong></li>
+</ul>
+<h3 id="3-2-从工作方式来看"><a href="#3-2-从工作方式来看" class="headerlink" title="3.2 从工作方式来看"></a>3.2 从工作方式来看</h3><ul>
+<li><strong>计算机网络(主要指Internet)可分为<font color="red">边缘部分和核心部分。</font></strong></li>
+<li><strong><font color="red">边缘部分由</font>所有连接到因特网上、供用户直接使用的<font color="red">主机</font>组成，用来进行<font color="red">通信</font>(如传输数据、音频或视频)和资源共享</strong></li>
+<li><strong><font color="red">核心部分由</font>大量的网络和连接这些网络的<font color="red">路由器</font>组成，它为边缘部分提供连通性和交换服务。</strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/6.jpg#pic_center"></p>
+<h3 id="3-3-从功能组成来看"><a href="#3-3-从功能组成来看" class="headerlink" title="3.3 从功能组成来看"></a>3.3 从功能组成来看</h3><ul>
+<li><p><strong>计算机网络由<font color="red">通信子网</font>和<font color="red">资源子网</font>组成</strong></p>
+</li>
+<li><p><strong>通信子网</strong></p>
+<p><strong>由各种<font color="red">传输介质</font>、<font color="red">通信设备</font>和相应的<font color="red">网络协议</font>组成，它使网络具有数据传输、交换、控制和存储的能力，实现计算机之间的数据通信。</strong></p>
+</li>
+<li><p><strong>资源子网</strong></p>
+<p><strong>是实现<font color="red">资源共享功能</font>的设备及其软件的集合，向网络用户提供<font color="red">共享</font>其他计算机上的<font color="red">硬件资源、软件资源和数据资源的服务。</font></strong></p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/7.jpg#pic_center"></p>
+</li>
+</ul>
+<h2 id="3-计算机网络的分类"><a href="#3-计算机网络的分类" class="headerlink" title="3.计算机网络的分类"></a>3.计算机网络的分类</h2><h3 id="3-1-按分布范围分类"><a href="#3-1-按分布范围分类" class="headerlink" title="3.1 按分布范围分类"></a>3.1 按分布范围分类</h3><ul>
+<li><strong>广域网(<font color="red">交换</font>技术)、城域网、局域网(<font color="red">广播</font>技术)、个人区域网</strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/8.jpg#pic_center"></p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/9.jpg#pic_center"></p>
+<h3 id="3-2-按传输技术分类"><a href="#3-2-按传输技术分类" class="headerlink" title="3.2 按传输技术分类"></a>3.2 按传输技术分类</h3><ul>
+<li><p><strong>广播式网络</strong></p>
+<p><strong>所有联网计算机都<font color="red">共享一个公共通信信道</font>。当一台计算机利用共享通信信道发送报文分组时，所有其他计算机<font color="red">都会收听到这个分组</font>。接受到该分组的计算机将通过检查目的地址来决定是否接受该分组。</strong></p>
+</li>
+<li><p><strong>点对点网络</strong></p>
+<p><strong>每条物理线路连接<font color="red">一对</font>计算机。</strong></p>
+</li>
+</ul>
+<h3 id="3-3-按拓扑结构分类"><a href="#3-3-按拓扑结构分类" class="headerlink" title="3.3 按拓扑结构分类"></a>3.3 按拓扑结构分类</h3><ul>
+<li><strong>网络拓扑结构是指网络<font color="red">总的结点</font>（路由器、主机等）于<font color="red">通信线路</font>（网线）之间的<font color="red">几何关系</font>（如总线形、环形）表示的网路结构，主要指通信子网的拓扑结构。</strong></li>
+<li><strong>分为四类：总线形、星形、环形、网状形</strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/10.jpg#pic_center"></p>
+<h3 id="3-4-按使用者分类"><a href="#3-4-按使用者分类" class="headerlink" title="3.4 按使用者分类"></a>3.4 按使用者分类</h3><ul>
+<li><p><strong>公用网：中国电信、中国移动 - &gt;运营商出资建造的大型网络。</strong></p>
+</li>
+<li><p><strong>专用网：指某个部门为<font color="red">满足本单位</font>特殊业务需要而建造的网络。</strong></p>
+<p><strong>使用者：军队、公司、政府机关 内网</strong></p>
+</li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/11.jpg#pic_center"></p>
+<h3 id="3-5-按交换技术分类"><a href="#3-5-按交换技术分类" class="headerlink" title="3.5 按交换技术分类"></a>3.5 按交换技术分类</h3><ul>
+<li><p><strong>电路交换<font color="red">(建立一条通路、持续占用)</font></strong></p>
+<p><strong>在源结点和目的结点之间建立起<font color="red">一条专用的通路</font>用于传输数据，包括建立连接（占用通信资源）、传输数据（一直占用通信资源）和断开连接（释放通信资源）三个阶段。最典型的电路交换网是<font color="red">传统电话网络</font>。该类网络的特点是整个报文的比特流连续的从源点直达终点，好像在一条管道中传送。</strong></p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/12.jpg#pic_center"></p>
+</li>
+<li><p><strong>报文交换</strong></p>
+</li>
+</ul>
+<p> <strong>也称<font color="red">存储-转发</font>网络。用户数据加上<font color="red">源地址、目的地址、校验码</font>等辅助信息，然后<font color="red">封装成报文</font>、这个报文传送到<font color="red">相邻结点</font>，全部存储后，再<font color="red">转发</font>给下一个结点，重复这一过程<font color="red">直到到达</font>目的结点，每个报文可以单独选择到达目的结点的路径。</strong></p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/13.jpg#pic_center"></p>
+<ul>
+<li><strong>分组交换</strong></li>
+</ul>
+<p><strong><font color="red">包交换网络</font>。其原理是将数据<font color="red">分成</font>较短的固定长度的<font color="red">数据块</font>，在每个数据块中加上<font color="red">目的地址、源地址</font>等辅助信息<font color="red">组成分组</font>（包），以<font color="red">储存-转发方式传输</font>。</strong></p>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/14.jpg#pic_center"></p>
+<ul>
+<li><strong>三种交换的比较</strong></li>
+</ul>
+<p><img src="https://yancey597.github.io/jisuanjiwangluogaishu/15.jpg#pic_center"></p>
+<h3 id="3-6-按传输介质分类"><a href="#3-6-按传输介质分类" class="headerlink" title="3.6 按传输介质分类"></a>3.6 按传输介质分类</h3><p><strong>传输介质可分为<font color="red">有线</font>和<font color="red">无线</font>两大类</strong></p>
+<ul>
+<li><strong>有线网络可分为双绞线网络、同轴电缆网络等。</strong></li>
+<li><strong>无线网络可分为蓝牙、微波、无线电等类型。</strong></li>
+</ul>
 <hr>
 <p><strong>永远相信美好的事情即将发生！</strong></p>
 <p><strong>Yancey</strong></p>
-1635508815000
+
                 
             </div>
             <hr/>
@@ -481,7 +566,7 @@ DS<span class="token operator">:</span>  <span class="token class-name">HashMap<
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://yancey.vip/chouxiangshujuleixing.html">https://yancey.vip/chouxiangshujuleixing.html</a>
+                    <a href="https://yancey.vip/posts/10890.html">https://yancey.vip/posts/10890.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -519,8 +604,8 @@ DS<span class="token operator">:</span>  <span class="token class-name">HashMap<
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                                    <span class="chip bg-color">数据结构</span>
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                    <span class="chip bg-color">计算机网络</span>
                                 </a>
                             
                         </div>
@@ -958,47 +1043,45 @@ DS<span class="token operator">:</span>  <span class="token class-name">HashMap<
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/chouxiangshujuleixing.html">
+                <a href="/posts/24752.html">
                     <div class="card-image">
                         
-                        <img src="https://yancey597.github.io/chouxiangshujuleixing/sjjg.jpg" class="responsive-img" alt="抽象数据类型">
+                        <img src="https://yancey597.github.io/windows11/java.jpg " class="responsive-img" alt="Java面向对象1">
                         
-                        <span class="card-title">抽象数据类型</span>
+                        <span class="card-title">Java面向对象1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            抽象数据类型的分享。
+                            什么，你还没有对象？那你来对地方了！
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-29
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="post-category">
-                                    技术分享
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                        <span class="chip bg-color">数据结构</span>
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
                 </div>
@@ -1012,23 +1095,23 @@ DS<span class="token operator">:</span>  <span class="token class-name">HashMap<
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/ganxieniaiwo.html">
+                <a href="/posts/26767.html">
                     <div class="card-image">
                         
-                        <img src="https://yancey597.github.io/ganxieniaiwo/dhc.jpg" class="responsive-img" alt="感谢你爱我">
+                        <img src="https://yancey597.github.io/hulan/dhc.jpg" class="responsive-img" alt="久违的快乐">
                         
-                        <span class="card-title">感谢你爱我</span>
+                        <span class="card-title">久违的快乐</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            感谢你成就了我，浪漫的英雄主义。
+                            日常生活中的美好瞬间，便可支撑起人生的全部意义。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-19
                             </span>
                         <span class="publish-author">
                             
