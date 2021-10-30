@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yancey.vip/404/index.html</loc>
+    
+    <lastmod>2021-10-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yancey.vip/posts/26767.html</loc>
     
     <lastmod>2021-10-30</lastmod>
@@ -107,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://yancey.vip/404/index.html</loc>
-    
-    <lastmod>2021-10-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://yancey.vip/contact/index.html</loc>
     
     <lastmod>2021-10-03</lastmod>
@@ -193,14 +193,14 @@
   </url>
   
   <url>
-    <loc>https://yancey.vip/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://yancey.vip/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2021-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yancey.vip/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://yancey.vip/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2021-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
