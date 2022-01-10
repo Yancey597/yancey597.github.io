@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://yancey.vip/posts/24752.html</loc>
-    
-    <lastmod>2022-01-10</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://yancey.vip/posts/b06cc6ec.html</loc>
     
     <lastmod>2021-11-15</lastmod>
@@ -179,14 +172,14 @@
 
   
   <url>
-    <loc>https://yancey.vip/tags/Java/</loc>
+    <loc>https://yancey.vip/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yancey.vip/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://yancey.vip/tags/Java/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -230,14 +223,14 @@
 
   
   <url>
-    <loc>https://yancey.vip/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://yancey.vip/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yancey.vip/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://yancey.vip/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
