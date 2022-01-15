@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2022-01-10T17:14:15.313Z</updated>
+  <updated>2022-01-15T22:09:00.171Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode</title>
+    <link href="https://yancey.vip/posts/e2c5bfe8.html"/>
+    <id>https://yancey.vip/posts/e2c5bfe8.html</id>
+    <published>2022-01-15T22:04:41.000Z</published>
+    <updated>2022-01-15T22:09:00.171Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;VSCode-配置C-C-环境&quot;&gt;&lt;a href=&quot;#VSCode-配置C-C-环境&quot; class=&quot;headerlink&quot; title=&quot;VSCode 配置C/C++环境&quot;&gt;&lt;/a&gt;VSCode 配置C/C++环境&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="技术分享" scheme="https://yancey.vip/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="C/C++" scheme="https://yancey.vip/tags/C-C/"/>
+    
+  </entry>
   
   <entry>
     <title>Java面向对象1</title>
