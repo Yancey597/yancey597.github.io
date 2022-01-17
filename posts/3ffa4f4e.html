@@ -385,7 +385,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    838
+                    878
                 </div>
                 
 
@@ -424,23 +424,23 @@
 #include &lt;stdlib.h&gt;
 typedef int ElemType;
 
-typedef struct LNode {
+typedef struct LNode &#123;
   ElemType data;
   struct LNode *next;
-} LNode, *LinkList;
+&#125; LNode, *LinkList;
 
-bool InitList(LinkList L) {
-  L = (LNode *)malloc(sizeof(LNode));
-  L-&gt;data = 1;
-}
+bool InitList(LinkList L) &#123;
+  L &#x3D; (LNode *)malloc(sizeof(LNode));
+  L-&gt;data &#x3D; 1;
+&#125;
 
-int main(void) {
+int main(void) &#123;
 
   LinkList L;
   InitList(L);
-  printf("%d", L-&gt;data);//false
+  printf(&quot;%d&quot;, L-&gt;data);&#x2F;&#x2F;false
   return 0;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p>好久没碰C，于是想拿基本的数据结构来熟悉下代码。<br>上述代码想要实现的功能是调用InitList()函数，实现对链表的初始化，但经过调用后的printf()测试之后发现报错，一直没有意识到问题所在。经过大半个小时的研究和DeBug、和一哲交流良久，意识到了问题同时也有了今天的这篇博客，接下来进入正文部分。</p>
@@ -449,15 +449,15 @@ int main(void) {
 <p>一定要区分指针和指针变量，我发现我的问题就是太久没有碰C，对相关概念出现了模糊化。</p>
 </blockquote>
 <h3 id="1-指针变量"><a href="#1-指针变量" class="headerlink" title="1. 指针变量"></a>1. 指针变量</h3><p>指针变量，本质上是一个变量，他<strong>存放的是一个地址</strong>。</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">int a = 2;
-int *p = &amp;a;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">int a &#x3D; 2;
+int *p &#x3D; &amp;a;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p>示例代码中，创建了一个int 类型的<strong>指针变量</strong></p>
 </blockquote>
 <h3 id="2-指针"><a href="#2-指针" class="headerlink" title="2. 指针"></a>2. 指针</h3><p>指针通常<strong>被理解为地址</strong>的意思，我们说的创建一个<strong>int类型的指针</strong>，其实是创建了一个指针类型的变量。在这个地方容易引起歧义：什么时候指针这个词表示的是一个<strong>地址</strong>、什么时候又是一个<strong>指针变量</strong>。</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">int a = 2;
-int *p = &amp;a;//p 是一个指向int类型的指针(变量)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">int a &#x3D; 2;
+int *p &#x3D; &amp;a;&#x2F;&#x2F;p 是一个指向int类型的指针(变量)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
 
@@ -465,35 +465,35 @@ int *p = &amp;a;//p 是一个指向int类型的指针(变量)<span aria-hidden="
 <p>回到开头的问题，为什么调用InitList()函数，实现对链表的初始化，但经过调用后的printf()测试之后发现报错。</p>
 </blockquote>
 <p>我定义这个函数的时候想着说传一个指针，我这里想传递的是一个<strong>地址</strong>，但实际上传递的是一个<strong>指针变量</strong>赋给这个形参。换句话说这里的形参是一个<strong>指针变量</strong>，而不是一个地址，我当时一直陷入这里是一个”<strong>地址</strong>“的误区。</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">bool InitList(LinkList L) {//传递的值是一个指针变量
-  L = (LNode *)malloc(sizeof(LNode));
-  L-&gt;data = 1;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">bool InitList(LinkList L) &#123;&#x2F;&#x2F;传递的值是一个指针变量
+  L &#x3D; (LNode *)malloc(sizeof(LNode));
+  L-&gt;data &#x3D; 1;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>所以我后续的malloc操作是针对<strong>形参的L</strong>进行的，我修改了L中存放的地址值，而L在函数调用结束后就出栈了，所以并没有影响实际值。这个说法其实不太严谨，但姑且这么理解。核心原因是因为日常交流时，混淆了指针和指针变量的意思。</p>
 <h3 id="三、解决方案"><a href="#三、解决方案" class="headerlink" title="三、解决方案"></a>三、解决方案</h3><h3 id="1-用指针"><a href="#1-用指针" class="headerlink" title="1. 用指针"></a>1. 用指针</h3><blockquote>
 <p>代码想要实现的效果是创建并初始化链表，那么修改后的代码应该是这样的。</p>
 </blockquote>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">LinkList InitList(LinkList L) {
-  L = (LNode *)malloc(sizeof(LNode));
-  L-&gt;data = 1;
-  if (L == NULL) {
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">LinkList InitList(LinkList L) &#123;
+  L &#x3D; (LNode *)malloc(sizeof(LNode));
+  L-&gt;data &#x3D; 1;
+  if (L &#x3D;&#x3D; NULL) &#123;
     return NULL;
-  }
+  &#125;
   return L;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>将L作为<strong>返回值</strong>，直接返回到主调函数，从而实现既定效果。</p>
-<h3 id="2-用引用"><a href="#2-用引用" class="headerlink" title="2. 用引用"></a>2. 用引用</h3><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">bool InitList(LinkList &amp;L) {
+<h3 id="2-用引用"><a href="#2-用引用" class="headerlink" title="2. 用引用"></a>2. 用引用</h3><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">bool InitList(LinkList &amp;L) &#123;
 
-  L = (LNode *)malloc(sizeof(LNode));
-  L-&gt;data = 1;
-  if (L == NULL) {
+  L &#x3D; (LNode *)malloc(sizeof(LNode));
+  L-&gt;data &#x3D; 1;
+  if (L &#x3D;&#x3D; NULL) &#123;
     return false;
-  }
+  &#125;
 
   return true;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>用<strong>引用</strong>就能很好的解决这一问题，引用相当于变量的别名，可以<strong>直接</strong>对该变量进行数据的<strong>修改</strong>操作。</p>
 <p><strong>总结一下就是一定要区分指针和指针变量的区别，写代码之前想清楚。</strong></p>
@@ -1323,7 +1323,7 @@ int *p = &amp;a;//p 是一个指向int类型的指针(变量)<span aria-hidden="
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25.7k</span>
+                class="white-color">26.1k</span>
             
             
             
