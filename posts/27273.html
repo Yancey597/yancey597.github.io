@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Blog、博客">
+    <meta name="keywords" content="抽象数据类型, Blog、博客">
     <meta name="description" content="願愛無憂">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Yancey&#39;s Blog</title>
+    <title>抽象数据类型 | Yancey&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/yancey597/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/yancey597/libs/awesome/css/all.css">
@@ -230,12 +230,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/yancey597/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://yancey597.github.io/posts/27273/sjjg.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">抽象数据类型</h1>
                 </div>
             </div>
         </div>
@@ -349,12 +349,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/yancey597/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                                <span class="chip bg-color">数据结构</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/yancey597/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="post-category">
+                                技术分享
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -363,7 +376,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-03
+                    2021-10-29
                 </div>
                 
 
@@ -372,14 +385,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    26
+                    905
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -407,8 +420,42 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>title: 404<br>date: 2019-08-5 16:41:10<br>type: “404”<br>layout: “404”<br>description: “Oops～，我崩溃了！找不到你想要的页面 :(“</p>
+                <p>&emsp;&emsp;&emsp;今天学习到408数据结构时遇到一个奇奇怪怪的东西：抽象数据类型，这个概念的定义如此之长，也不是特别容易理解。然后我去Google查阅了大量资料后算是把这个概念弄清楚了。接下来简单谈下我的对抽象数据类型的理解。</p>
+<blockquote>
+<p>抽象数据类型(Abstract Data Type 简称ADT)是指一个数学模型以及定义在此数学模型上的一组操作。抽象数据类型需要通过固有数据类型（高级编程语言中已实现的数据类型）来实现。抽象数据类型是与表示无关的数据类型，是一个数据模型及定义在该模型上的一组运算。</p>
+</blockquote>
+<p><strong>太抽象以至于不太好理解，其实可以用一个等式来描述抽象数据类型。</strong></p>
+<p><strong>抽象数据类型 = 逻辑结构 + 数据运算</strong></p>
+<h3 id="1-逻辑结构"><a href="#1-逻辑结构" class="headerlink" title="1. 逻辑结构"></a>1. 逻辑结构</h3><p>说到<strong>逻辑结构</strong>不得不从头讲起：</p>
+<p>我们生活在现实世界中，如何描述这世界万物呢？画家可以用手中的画笔，而我们如何来描述这个世界呢？我们可以用<strong>数据</strong>来描述这个世界。</p>
+<p><img src="https://yancey597.github.io/posts/27273/sjysj.jpg" ></img></p>
+<p>接下来是层层递进的概念：</p>
+<p>数据是信息的<strong>载体</strong>，用来描述客观事物属性的数、字符及所有能被<strong>计算机读取</strong>(二进制0、1)识别的符号的集合。</p>
+<p><strong>数据元素</strong>是数据的基本单位，一个数据元素可以包括多个<strong>数据项</strong>，数据项是数据元素的最小构成单位。</p>
+<p>具有相同性质的数据元素称为<strong>数据对象</strong>。</p>
+<p>而<strong>数据元素</strong>间存在一种或多种关系的则可以称之为<strong>数据结构</strong>。</p>
+<p>而数据的<strong>逻辑结构</strong>是数据结构的三要素之一。</p>
+<p>常见的逻辑结构分为线性和非线性，这里就不一一展开了。</p>
+<h3 id="2-数据运算"><a href="#2-数据运算" class="headerlink" title="2. 数据运算"></a>2. 数据运算</h3><p>施加在数据上的运算包括运算的定义和实现。运算的定义是针对逻辑结构的，指出运算的功能；运算的实现是针对存储结构的，指出运算的具体操作步骤。</p>
+<p>比如对数据的<strong>增删改查</strong>。</p>
+<h3 id="3-抽象数据类型"><a href="#3-抽象数据类型" class="headerlink" title="3.抽象数据类型"></a>3.抽象数据类型</h3><p>逻辑结构不涉及数据在计算机中<strong>具体的实现和存储</strong>，这些操作是由存储结构决定的，这就是说，抽象数据类型只需考虑问题本身即可。</p>
+<p>抽象数据类型是在不涉及具体的，和计算机系统相关的细节情况下，优先理解问题本身，在此基础上，实现用计算机求解问题的过程。这就是使用抽象数据类型的目的。</p>
+<p>抽象数据类型就是在这种形式化的描述下把数据的组成和如何操作的问题描述清楚，且<strong>没有涉及到具体的计算机具体实现的一些问题</strong>。从数据对象中看出，<strong>抽象数据类型是由基本数据类型组成</strong>。</p>
+<p>就是告诉你这个东西是什么，有什么特征，但不关心具体是如何实现这个东西的。</p>
+<h3 id="4-抽象数据类型和数据结构的区别"><a href="#4-抽象数据类型和数据结构的区别" class="headerlink" title="4.抽象数据类型和数据结构的区别"></a>4.抽象数据类型和数据结构的区别</h3><p>ADT is to a Data Structure, what an Interface (what it does) is to a Class (how it does it)</p>
+<p>ADT 之于数据结构，接口（它做什么）之于类（它如何做）</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">ADT<span class="token operator">:</span> <span class="token class-name">List</span>
+DS<span class="token operator">:</span>  <span class="token class-name">ArrayList</span><span class="token punctuation">,</span> <span class="token class-name">LinkedList</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
 
+ADT<span class="token operator">:</span> <span class="token class-name">Map</span>
+DS<span class="token operator">:</span>  <span class="token class-name">HashMap</span><span class="token punctuation">,</span> <span class="token class-name">TreeMap</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<hr>
+<p><strong>永远相信美好的事情即将发生！</strong></p>
+<p><strong>Yancey</strong></p>
+1635508815000
                 
             </div>
             <hr/>
@@ -434,7 +481,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yancey597.gitee.io/yancey597/404.html">http://yancey597.gitee.io/yancey597/404.html</a>
+                    <a href="http://yancey597.gitee.io/yancey597/posts/27273.html">http://yancey597.gitee.io/yancey597/posts/27273.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -471,7 +518,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/yancey597/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                                    <span class="chip bg-color">数据结构</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -907,39 +958,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/yancey597/404.html">
+                <a href="/yancey597/posts/3ffa4f4e.html">
                     <div class="card-image">
                         
+                        <img src="https://yancey597.github.io/posts/3ffa4f4e/cover.jpg" class="responsive-img" alt="指针及引用传参">
                         
-                        <img src="/yancey597/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">指针及引用传参</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            单链表中指针和引用的传参
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-03
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-01
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Yancey
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/yancey597/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="post-category">
+                                    技术分享
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/yancey597/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -947,37 +1007,47 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/yancey597/404.html">
+                <a href="/yancey597/posts/30626.html">
                     <div class="card-image">
                         
+                        <img src="https://yancey597.github.io/posts/30626/dhc.jpg" class="responsive-img" alt="感谢你爱我">
                         
-                        <img src="/yancey597/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">感谢你爱我</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            感谢你成就了我，浪漫的英雄主义。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Yancey
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/yancey597/categories/%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    记录
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/yancey597/tags/%E5%91%A8%E8%AE%B0/">
+                        <span class="chip bg-color">周记</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
