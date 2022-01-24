@@ -435,7 +435,7 @@
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            老罗语录：“你如果走进社会，为了生存或是为了什么不要脸的理由，变成了一个恶心的成年人社会中的一员，那你就把这个世界变得恶心了一点点。如果你一生耿直，刚正不阿，没做任何恶心的事情，没有做任何对别人造成伤害的事情，一辈子拼了老命勉强把老婆、孩子、老娘，把身边的这些人照顾好了，没有成名，没有发财，没有成就伟大的事业，一生正直，最后梗着脖子到了七八十岁死掉了，你这一生是不是没有改变世界？你还是改变世界了，你把这个世界变得美好了一点点。因为你，这个世界又多了一个好人。”
+            不要打扰。\n不要打扰
         </div>
     </div>
 </div>
@@ -1079,7 +1079,7 @@
                     var todaySecond = today.getSeconds();
                     var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
                     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-                    var t3 = Date.UTC(2020, 9, 26, 13, 30, 2000);
+                    var t3 = Date.UTC(2001, 1, 28, 13, 30, 2000);
 
                     var diff = t2 - t1;
                     var diff1 = t2 - t3;
@@ -1098,7 +1098,7 @@
                         document.getElementById("year").innerHTML = todayYear;
                         var daysTip = 'This site has been running for ' + diffDays + ' days';
                         if (language === 'zh-CN') {
-                            daysTip = '本站已运行 ' + diffDays + ' 天';
+                            daysTip = '本站已运行 ' + diffDays + ' 天'+ '  来到这世界的第 '+ diffYears + ' 年 '+ diffDays1 + ' 天。' +' 愿爱无忧。 ';
                         } else if (language === 'zh-HK') {
                             daysTip = '本站已運行 ' + diffDays + ' 天';
                         }
@@ -1108,7 +1108,7 @@
                         var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and ' +
                             diffDays + ' days';
                         if (language === 'zh-CN') {
-                            yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天，' + '  想你的第 '+ diffYears + ' 年 '+ diffDays1 + ' 天。' +'我们会有再见那天吗？';
+                            yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天，' + '  来到这世界的第 '+ diffYears + ' 年 '+ diffDays1 + ' 天。' +' 愿爱无忧。 ';
                         } else if (language === 'zh-HK') {
                             yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
                         }
