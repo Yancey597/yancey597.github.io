@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "brazzaville-330616",
+  "private_key_id": "40ad4f7c01de162468451fa36d6e52d034993e4a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpxKpX0UI24EMX\ne9H0USGHVlEaJHb5ryhe6S0wY3wbV/jVL8ZgrBSqLPzFwpFwiEPEgoQVEXiy01bE\niJzO6Z0H8Ia4xZ7Z2aGCiXSShoHdsNtbJ1bjiWPitASkDa1ul7bIJRrIvDFdo3/B\nSGErs52vbP8jG1SCxBunKR/EVLzxphwcjZxZrLEpmdlmyeIpErqrU6pbUCQDu0CR\nszW41gqfzs1nwdNtmNKBZSmuQB/BAF3UuucEFjl9DUisyQPzNgK8/tYW/wDB4YBr\nwnxD5FYSODhJzCj0dvYDM7urv/vL6IUrte49BRFsT8Em6Ka0Faag1HEQzZMpGlBs\nFU+t+rKBAgMBAAECggEAFIlt8eGmmOzYMOcRpvSJkc2nUfpHSj0eLR0YElp2kPg7\nac61uMwYU93NVj8LSQmy6PrA76uFZlyainvcPEuWa3d1VLTTWpcxKpFmQLN00lSq\ntIQ1xqDALJSKWy4sZMyFmAClFNNvRVyZ/8+5sYew85/D3YNY3djLX5Vh+mYl1TWI\ndX2KW19mHfeusF4jUFyDnlcxs7pF7brtl65NLwBd3o+48s+g1K/XrBD7Pzl+laXy\n17zqNQZysaiXfa2fzWz6gkj0JWemhTVAP/w8ODzi/jlxG50wC23GXXYwDUzpnDNd\nHhlWDnVeoH+R59rUZT6H2LHlGCaqbMU3gRf/t4iBYQKBgQDeeoOFc79ySiq3tOny\nr4dpGI9EWYKrEYhTnSTy4DO5vNzg/HnsP2kKRqoc+xzOu+ijo9cPnVYdqLrqeDWk\nCeElgWQ8milO9sB4rokqqFd84jAvtwZuuMbD+pzC9nVJ2wuj+V5BczS7iXcpkqbh\nijD1WJHH/NuDJyYxZJuhqQ0eywKBgQDDWP+AyCmlQSbomng6b/3i6wYC+Whp9pAS\n2EXF53ALLGMV7XVAKcX8iwxxsrn9m87dI7knrYKi7gxTJzxmh4fBnafTJagaQhhU\nSuZCvRjBlGBm9P2qdJcUeuFzCqMTz2DXVUQqmWV7q59stzx3Z8v8vPePLeo6x1NO\nGVDWl2QeYwKBgBKvN1x93BY9JFlJWFyJYVXyOhYDbnXvgwOCrxe2vKFcuzAqBBNT\nP/8c8Cx+6mxyW5diqy0kiZb0FL6cWeTs73u24jQ0vkNjdcas4dgzSyWx2VoohOHH\nounSole9WxxYySF8T+4vPr6BTQCw0FMgx/vS9GtXURgysYJ0cJ2jFPcBAoGAGvg2\njjkURtRv4r0wzCCaFLIN6ms0lyyLR47EU0ZYmbJPG7/k6C7cPrmTxj6+ntzb+nvs\nHCZAWu4ylWhdVmpvu7NgcC5KvxVQ9pJAqAYjXNZ3WL+KJfZixVkRtyhIy3teC1yi\nRJ9Y+3H+WKwTlQiniQUtyH62T9clESs9leLg17ECgYBpfRyFyS9lNJENgFxowEMJ\n4qWkzrE/i95qofLpAYgn/ilJK7pevF3NpCNY1TunArcM5SBE4MY/t+9UT9Fu2JyM\n3oS+OTjb+lOKY3kWo0WIFMkRK9iTYQcp7s6/Ki8aDWQvbGR+HlP4T2PV9C4iLvg4\npoKb8Aya8pJZ8RRoXrfk/A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "yancey@brazzaville-330616.iam.gserviceaccount.com",
+  "client_id": "108555359305863840632",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yancey%40brazzaville-330616.iam.gserviceaccount.com"
+}
