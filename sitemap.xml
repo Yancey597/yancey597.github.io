@@ -144,6 +144,13 @@
   </url>
   
   <url>
+    <loc>https://yancey.vip/tags/%E8%A7%82%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2023-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yancey.vip/tags/Windows/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>daily</changefreq>
@@ -152,13 +159,6 @@
   
   <url>
     <loc>https://yancey.vip/tags/%E5%91%A8%E8%AE%B0/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yancey.vip/tags/%E8%A7%82%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
