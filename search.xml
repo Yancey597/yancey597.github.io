@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>表达式求值</title>
+      <link href="/posts/2e866599.html"/>
+      <url>/posts/2e866599.html</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><p><strong>为什么需要前/ 后缀表达式？</strong></p><p>后缀表达式可以去除原式中的括号，不需要括号就可以知道运算的优先级，便于计算机理解运算。</p><blockquote><p>a+b*(c+d*e) 原表达式</p><p>a b c d e * + * + 后缀表达式</p></blockquote><p><strong>如何变换？手算</strong></p><p>首先找出优先级较高的运算符，将其依次标号，依次将运算符移到右侧的操作数后，熟练后可以不加括号直接转换。</p><p><img src="https://gitee.com/yancey597/img-load/raw/master/images/202309101734785.png" alt="image-20230910173403674"></p><p><strong>如何变换？机算</strong></p><p>从左往右依次扫描：</p><ul><li><p>1.遇到操作数</p><ul><li>全部压入操作数栈；</li><li>结束条件是遇到括号或者运算符</li></ul></li><li><p>2.遇到运算符</p><ul><li><p>2.1 遇到 + -</p><ul><li><p>当前运算符栈为空则直接输出</p></li><li><p>当前运算符栈不为空入栈</p></li></ul></li><li><p>2.2 遇到 * /</p><ul><li><pre><code> 当前运算符栈为空则直接输出</code></pre></li><li><pre><code> 不为空则将运算符栈弹出，直到栈空或者遇到(</code></pre></li></ul></li><li><p>2.3 (</p><ul><li>不为空则入栈</li><li>)<ul><li><pre><code>     弹出所有运算符直到遇到(</code></pre></li></ul></li></ul></li></ul></li></ul><p><strong>代码实现</strong></p><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">void ExpreesionValue(char str[], char dest[]) {    /**     * @brief 求后缀表达式     * @note     * a*b+(c*d-e)     * 1*2+3+3*4     * 12*3+34*+     * 1.遇到操作数     *      全部压入操作数栈；     *      结束条件是遇到括号或者运算符     * 2.遇到运算符     *      2.1 遇到+ -     *          当前运算符栈为空则直接输出     *          当前运算符栈不为空入栈     *      2.2 遇到* /     *          当前运算符栈为空则直接输出     *          不为空则将运算符栈弹出，直到栈空或者遇到(     *      2.3 (     *          不为空则入栈     *          )     *          弹出所有运算符直到遇到(     */    SqStack S;    InitStack(S, 20);    char e;    int i = 0;    int j = 0;        while (str[i] != '\0') {        if (Isdigit(str[i])) {            // 将所有操作数输出并添加空格            dest[j++] = str[i++];            while (Isdigit(str[i])) {                dest[j++] = str[i++];            }            dest[j++] = ' ';        } else {            // 进行判空操作，如果为空或为'('直接入栈            if (Empty(S) || str[i] == '(') {                Push(S, str[i++]);            } else if (str[i] == ')') {                //如果遇到')'，在遇到'('前进行弹栈输出，最后将'('进行弹栈。                while (S.data[S.top] != '(') {                    Pop(S, dest[j++]);                }                char temps;                Pop(S, temps);                i++;            } else {                // 如果栈顶元素 &gt;= 当前符号优先级，则弹栈输出，最后将该符号入栈                while (priority(str[i]) &lt;= priority(S.data[S.top])) {                    Pop(S, dest[j++]);                    if (Empty(S)) {                        break;                    }                }                Push(S, str[i++]);            }        }    }    // 将栈清空输出    while (!Empty(S)) {        Pop(S, dest[j++]);    }    dest[j] = '\0';}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><p><strong>永远相信美好的事情即将发生！</strong></p><p><strong>Yancey</strong></p>1694336613000</body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>VSCode配置C/C++环境</title>
       <link href="/posts/e2c5bfe8.html"/>
       <url>/posts/e2c5bfe8.html</url>

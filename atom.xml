@@ -6,7 +6,7 @@
   <link href="https://yancey.vip/atom.xml" rel="self"/>
   
   <link href="https://yancey.vip/"/>
-  <updated>2022-01-21T18:51:26.550Z</updated>
+  <updated>2023-09-10T09:56:17.105Z</updated>
   <id>https://yancey.vip/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表达式求值</title>
+    <link href="https://yancey.vip/posts/2e866599.html"/>
+    <id>https://yancey.vip/posts/2e866599.html</id>
+    <published>2023-09-10T09:03:33.000Z</published>
+    <updated>2023-09-10T09:56:17.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;为什么需要前/</summary>
+        
+      
+    
+    
+    
+    <category term="学习记录" scheme="https://yancey.vip/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="数据结构" scheme="https://yancey.vip/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode配置C/C++环境</title>
